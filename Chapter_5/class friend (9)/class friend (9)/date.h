@@ -1,12 +1,12 @@
 //
-//  Friends.h
+//  date.h
 //  class friend (9)
 //
 //  Created by Serhii Hlushenkov on 10.11.2022.
 //
 
-#ifndef Friends_h
-#define Friends_h
+#ifndef date_h
+#define date_h
 
 class date{
     int month, day, year;
@@ -193,4 +193,4 @@ void print(const date cur)
     std::cout<<"Date is: "<<cur.month<<"/"<<cur.day<<"/"<<cur.year<<"\n";
 }
 
-#endif /* Friends_h */
+#endif /* date_h */
